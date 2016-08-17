@@ -1,0 +1,6 @@
+framework module OvercoatReactiveCocoa {
+  umbrella header "Overcoat+ReactiveCocoa-umbrella.h"
+
+  export *
+  module * { export * }
+}

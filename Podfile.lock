@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - hpple (0.2.0)
+  - Mantle (2.0.7):
+    - Mantle/extobjc (= 2.0.7)
+  - Mantle/extobjc (2.0.7)
+  - Overcoat (4.0.0-beta.2):
+    - AFNetworking/NSURLSession (~> 3.0)
+    - AFNetworking/Serialization (~> 3.0)
+    - Mantle (~> 2.0)
+  - Overcoat+ReactiveCocoa (4.0.0-beta.2):
+    - Overcoat (~> 4.0.0-beta.2)
+    - ReactiveCocoa (~> 2.4)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - hpple (~> 0.2.0)
+  - Overcoat+ReactiveCocoa (~> 4.0.0-beta.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  hpple: 3b765f96fc2cd56ad1a49aef6f7be5cb2aa64b57
+  Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
+  Overcoat: 2ddaa6d66edebc375f3e24a37974631d5aff7ebe
+  Overcoat+ReactiveCocoa: d49ce788620100453345a603aa3f8c7058b18cea
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+
+PODFILE CHECKSUM: 00944a70cb916eba2cc60f84e25ded5114459e2b
+
+COCOAPODS: 1.1.0.beta.1

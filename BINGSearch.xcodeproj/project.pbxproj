@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E9C2D41EEB3DC9FF0ACD8FD /* Pods_BINGSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ECF6C7BAEFE890E8B148A0 /* Pods_BINGSearch.framework */; };
 		896623A31D622129009E2EE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 896623A21D622129009E2EE0 /* main.m */; };
 		896623A61D622129009E2EE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 896623A51D622129009E2EE0 /* AppDelegate.m */; };
-		896623A91D622129009E2EE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 896623A81D622129009E2EE0 /* ViewController.m */; };
+		896623A91D622129009E2EE0 /* SearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 896623A81D622129009E2EE0 /* SearchController.m */; };
 		896623AC1D622129009E2EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896623AA1D622129009E2EE0 /* Main.storyboard */; };
 		896623AE1D622129009E2EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896623AD1D622129009E2EE0 /* Assets.xcassets */; };
 		896623B11D622129009E2EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896623AF1D622129009E2EE0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50ECF6C7BAEFE890E8B148A0 /* Pods_BINGSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BINGSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED9A0D0AB51ED8356AFE585 /* Pods-BINGSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BINGSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BINGSearch/Pods-BINGSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		8966239E1D622129009E2EE0 /* BINGSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BINGSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		896623A21D622129009E2EE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		896623A41D622129009E2EE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		896623A51D622129009E2EE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		896623A71D622129009E2EE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		896623A81D622129009E2EE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		896623A71D622129009E2EE0 /* SearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchController.h; sourceTree = "<group>"; };
+		896623A81D622129009E2EE0 /* SearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchController.m; sourceTree = "<group>"; };
 		896623AB1D622129009E2EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		896623AD1D622129009E2EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		896623B01D622129009E2EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		896623B21D622129009E2EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39D42263BA1C3E57DEC31DF /* Pods-BINGSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BINGSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-BINGSearch/Pods-BINGSearch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E9C2D41EEB3DC9FF0ACD8FD /* Pods_BINGSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6027C90DBB146B5A9E8F8D85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ED9A0D0AB51ED8356AFE585 /* Pods-BINGSearch.debug.xcconfig */,
+				A39D42263BA1C3E57DEC31DF /* Pods-BINGSearch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7681AB861F31E4B711911C6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50ECF6C7BAEFE890E8B148A0 /* Pods_BINGSearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		896623951D622129009E2EE0 = {
 			isa = PBXGroup;
 			children = (
 				896623A01D622129009E2EE0 /* BINGSearch */,
 				8966239F1D622129009E2EE0 /* Products */,
+				6027C90DBB146B5A9E8F8D85 /* Pods */,
+				7681AB861F31E4B711911C6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +84,8 @@
 			children = (
 				896623A41D622129009E2EE0 /* AppDelegate.h */,
 				896623A51D622129009E2EE0 /* AppDelegate.m */,
-				896623A71D622129009E2EE0 /* ViewController.h */,
-				896623A81D622129009E2EE0 /* ViewController.m */,
+				896623A71D622129009E2EE0 /* SearchController.h */,
+				896623A81D622129009E2EE0 /* SearchController.m */,
 				896623AA1D622129009E2EE0 /* Main.storyboard */,
 				896623AD1D622129009E2EE0 /* Assets.xcassets */,
 				896623AF1D622129009E2EE0 /* LaunchScreen.storyboard */,
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 896623B51D622129009E2EE0 /* Build configuration list for PBXNativeTarget "BINGSearch" */;
 			buildPhases = (
+				43F5AD292558EFAB438773E9 /* [CP] Check Pods Manifest.lock */,
 				8966239A1D622129009E2EE0 /* Sources */,
 				8966239B1D622129009E2EE0 /* Frameworks */,
 				8966239C1D622129009E2EE0 /* Resources */,
+				C3CFF663750151C5EFE76E43 /* [CP] Embed Pods Frameworks */,
+				03B652B768E949951A79370D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,12 +171,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03B652B768E949951A79370D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BINGSearch/Pods-BINGSearch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43F5AD292558EFAB438773E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3CFF663750151C5EFE76E43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BINGSearch/Pods-BINGSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8966239A1D622129009E2EE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				896623A91D622129009E2EE0 /* ViewController.m in Sources */,
+				896623A91D622129009E2EE0 /* SearchController.m in Sources */,
 				896623A61D622129009E2EE0 /* AppDelegate.m in Sources */,
 				896623A31D622129009E2EE0 /* main.m in Sources */,
 			);
@@ -263,9 +338,11 @@
 		};
 		896623B61D622129009E2EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED9A0D0AB51ED8356AFE585 /* Pods-BINGSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BINGSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yuriy.Pitomets.BINGSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,9 +351,11 @@
 		};
 		896623B71D622129009E2EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A39D42263BA1C3E57DEC31DF /* Pods-BINGSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BINGSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yuriy.Pitomets.BINGSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +381,7 @@
 				896623B71D622129009E2EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
