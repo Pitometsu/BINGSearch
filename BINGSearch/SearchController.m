@@ -43,9 +43,11 @@
     self.definesPresentationContext = YES;
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+    // TODO: cleanup search items array
 }
 
 #pragma mark - UISearchResultsUpdating

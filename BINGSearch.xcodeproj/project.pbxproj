@@ -14,6 +14,9 @@
 		896623AC1D622129009E2EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896623AA1D622129009E2EE0 /* Main.storyboard */; };
 		896623AE1D622129009E2EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896623AD1D622129009E2EE0 /* Assets.xcassets */; };
 		896623B11D622129009E2EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896623AF1D622129009E2EE0 /* LaunchScreen.storyboard */; };
+		896623BD1D6426F5009E2EE0 /* SearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 896623BC1D6426F5009E2EE0 /* SearchResult.m */; };
+		896623C01D642704009E2EE0 /* SearchPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 896623BF1D642704009E2EE0 /* SearchPage.m */; };
+		896623C31D6428EA009E2EE0 /* BINGSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 896623C21D6428EA009E2EE0 /* BINGSession.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		896623AD1D622129009E2EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		896623B01D622129009E2EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		896623B21D622129009E2EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896623BB1D6426F5009E2EE0 /* SearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResult.h; sourceTree = "<group>"; };
+		896623BC1D6426F5009E2EE0 /* SearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResult.m; sourceTree = "<group>"; };
+		896623BE1D642704009E2EE0 /* SearchPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchPage.h; sourceTree = "<group>"; };
+		896623BF1D642704009E2EE0 /* SearchPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchPage.m; sourceTree = "<group>"; };
+		896623C11D6428EA009E2EE0 /* BINGSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BINGSession.h; sourceTree = "<group>"; };
+		896623C21D6428EA009E2EE0 /* BINGSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BINGSession.m; sourceTree = "<group>"; };
 		A39D42263BA1C3E57DEC31DF /* Pods-BINGSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BINGSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-BINGSearch/Pods-BINGSearch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +95,12 @@
 				896623A51D622129009E2EE0 /* AppDelegate.m */,
 				896623A71D622129009E2EE0 /* SearchController.h */,
 				896623A81D622129009E2EE0 /* SearchController.m */,
+				896623C11D6428EA009E2EE0 /* BINGSession.h */,
+				896623C21D6428EA009E2EE0 /* BINGSession.m */,
+				896623BB1D6426F5009E2EE0 /* SearchResult.h */,
+				896623BC1D6426F5009E2EE0 /* SearchResult.m */,
+				896623BE1D642704009E2EE0 /* SearchPage.h */,
+				896623BF1D642704009E2EE0 /* SearchPage.m */,
 				896623AA1D622129009E2EE0 /* Main.storyboard */,
 				896623AD1D622129009E2EE0 /* Assets.xcassets */,
 				896623AF1D622129009E2EE0 /* LaunchScreen.storyboard */,
@@ -224,8 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896623C31D6428EA009E2EE0 /* BINGSession.m in Sources */,
 				896623A91D622129009E2EE0 /* SearchController.m in Sources */,
 				896623A61D622129009E2EE0 /* AppDelegate.m in Sources */,
+				896623C01D642704009E2EE0 /* SearchPage.m in Sources */,
+				896623BD1D6426F5009E2EE0 /* SearchResult.m in Sources */,
 				896623A31D622129009E2EE0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
