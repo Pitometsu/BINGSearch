@@ -6,9 +6,12 @@
 //  Copyright © 2016 Yuriy Pitomets. All rights reserved.
 //
 
-#import <Overcoat/Overcoat.h>
+@import OvercoatReactiveCocoa;
 
 
 @interface BINGSession : OVCHTTPSessionManager
+
+- (RACSignal *)searchWeb:(NSString *)query;
+- (RACSignal *)searchImages:(NSString *)query;
 
 @end

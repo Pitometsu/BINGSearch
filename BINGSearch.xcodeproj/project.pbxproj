@@ -17,6 +17,7 @@
 		896623BD1D6426F5009E2EE0 /* SearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 896623BC1D6426F5009E2EE0 /* SearchResult.m */; };
 		896623C01D642704009E2EE0 /* SearchPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 896623BF1D642704009E2EE0 /* SearchPage.m */; };
 		896623C31D6428EA009E2EE0 /* BINGSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 896623C21D6428EA009E2EE0 /* BINGSession.m */; };
+		896623C61D642CB9009E2EE0 /* SearchViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 896623C51D642CB9009E2EE0 /* SearchViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		896623BF1D642704009E2EE0 /* SearchPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchPage.m; sourceTree = "<group>"; };
 		896623C11D6428EA009E2EE0 /* BINGSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BINGSession.h; sourceTree = "<group>"; };
 		896623C21D6428EA009E2EE0 /* BINGSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BINGSession.m; sourceTree = "<group>"; };
+		896623C41D642CB9009E2EE0 /* SearchViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewModel.h; sourceTree = "<group>"; };
+		896623C51D642CB9009E2EE0 /* SearchViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewModel.m; sourceTree = "<group>"; };
 		A39D42263BA1C3E57DEC31DF /* Pods-BINGSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BINGSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-BINGSearch/Pods-BINGSearch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +98,8 @@
 				896623A51D622129009E2EE0 /* AppDelegate.m */,
 				896623A71D622129009E2EE0 /* SearchController.h */,
 				896623A81D622129009E2EE0 /* SearchController.m */,
+				896623C41D642CB9009E2EE0 /* SearchViewModel.h */,
+				896623C51D642CB9009E2EE0 /* SearchViewModel.m */,
 				896623C11D6428EA009E2EE0 /* BINGSession.h */,
 				896623C21D6428EA009E2EE0 /* BINGSession.m */,
 				896623BB1D6426F5009E2EE0 /* SearchResult.h */,
@@ -244,6 +249,7 @@
 				896623A61D622129009E2EE0 /* AppDelegate.m in Sources */,
 				896623C01D642704009E2EE0 /* SearchPage.m in Sources */,
 				896623BD1D6426F5009E2EE0 /* SearchResult.m in Sources */,
+				896623C61D642CB9009E2EE0 /* SearchViewModel.m in Sources */,
 				896623A31D622129009E2EE0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
